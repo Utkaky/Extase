@@ -1,0 +1,80 @@
+body {
+    margin: 0; 
+    height: 100vh; 
+    display: flex;         
+    justify-content: center; 
+    align-items: center;    
+    font-family: Arial, sans-serif;
+    background-color: #213435;
+}
+
+/* ollama launch claude */
+
+.login-card {
+    background-color: #e1e3ac;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    position: absolute;
+    transform: translate(-600px, -70px);
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.meu-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #a6b985;
+    padding-bottom: 10px;
+}
+
+.meu-menu a {
+    color: #213435;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.meu-menu a:hover {
+    color: #46685b;
+}
+
+.login-input {
+    border-radius: 12px;
+    border: 2px solid #a6b985;
+    background-color: #ffffff;
+    color: #213435;
+    padding: 12px 18px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-input:focus {
+    border-color: #46685b;
+}
+
+.enter-button {
+    border-radius: 9px;
+    padding: 10px 20px;
+    background-color: #46685b; 
+    color: #e1e3ac;             
+    border: none;           
+    cursor: pointer;          
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(70, 104, 91, 0.3);
+    transition: background-color 0.2s;
+}
+
+.enter-button:hover {
+    background-color: #648a64;
+}
